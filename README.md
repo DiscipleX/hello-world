@@ -1,6 +1,8 @@
 # Creating new custom nodes in Houdini using te Python Source Editor in Houdini.
 
-rendercam = hou.node("obj").createNode("cam") #Name variable, call houdini using (hou.node), tell it where, and to create_the camera node.
+# Name variable, call houdini using (hou.node), tell it where, and to create_the camera node.
+
+rendercam = hou.node("obj").createNode("cam") 
 rendercam.setName("RenderCam")
 rendercam.parm("resx").set(1920)
 rendercam.parm("resy").set(1080)
