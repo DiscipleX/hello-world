@@ -1,4 +1,4 @@
-# Creating new custom nodes in Houdini using te Python Source Editor in Houdini.
+# Creating new custom nodes in Houdini using the Python Source Editor in Houdini.
 
 # Name variable, call houdini using (hou.node), tell it where, and to create_the camera node.
 
